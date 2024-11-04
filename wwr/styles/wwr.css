@@ -225,4 +225,8 @@ main section img {
     footer {
         margin-top: 25px;
     }
+    .home-grid{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+    }
 }
