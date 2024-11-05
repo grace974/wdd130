@@ -183,6 +183,10 @@ main section img {
     opacity: .6;
     transform: scale(1.1);
 }
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -225,8 +229,5 @@ main section img {
     footer {
         margin-top: 25px;
     }
-    .home-grid{
-        display: grid;
-        grid-template-columns: repeat(10, 1fr);
-    }
+    
 }
