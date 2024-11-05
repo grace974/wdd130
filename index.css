@@ -13,6 +13,9 @@ footer p{
 a:hover{
     background-color: white;
     color: steelblue;
+    padding: 35px;
+    margin: 30px;
+    justify-items: center;
 }
 img{
     width: 80%;
@@ -41,7 +44,9 @@ p{
 a{
     font-size: 1.5em;
     color: white;
-    padding: 25px;
+    padding: 50px;
+    margin: 75px;
+    
 }
 footer{
     background-color: steelblue;
